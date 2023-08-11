@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Testtask</title>
+</head>
+
+<body>
+    <div class="desk">
+        <div class="column-left">
+
+            <form>
+                <div class="buttons">
+                    <input type="text" placeholder="idInstance">
+                </div>
+            </form>
+
+            <form>
+                <div class="buttons">
+                    <input type="text" placeholder="ApiTokenInsatnce">
+                </div>
+            </form>
+
+            <button>GetSettings
+                <div class="buttons">
+                    <a href="https://green-api.com/docs/api/account/GetSettings/"></a>
+                </div>
+            </button>
+
+            <button>GetStateInstance
+                <div class="buttons">
+                    <a href="https://green-api.com/docs/api/account/GetStateInstance/"></a>
+                </div>
+            </button>
+
+            <form>
+                <div class="buttons">
+                    <input type="tel" placeholder="inputPhoneNumber">
+                </div>
+            </form>
+
+            <form>
+                <div class="buttons">
+                    <input type="text" placeholder="inputYourMessage">
+                </div>
+            </form>
+
+            <button>sendMessage
+                <div class="buttons">
+                    <a href="https://green-api.com/docs/api/sending/SendMessage/"></a>
+                </div>
+            </button>
+
+            <form>
+                <div class="buttons"></div>
+                <input type="tel" placeholder="inputPhoneNumber">
+            </form>
+            <form>
+                <div class="buttons"></div>
+                <input type="text" placeholder="inputLink">
+            </form>
+            <button>sendFileByUrl
+                <div class="buttons"></div>
+                <a href="https://green-api.com/docs/api/sending/SendMessage/"></a>
+            </button>
+        </div>
+        <div class="column-right" ;>
+            <p>Ответ:</p2>
+        </div>
+        <div class="box">
+        </div>
+
+    </div>
+    </div>
+</body>
+<style>
+    .buttons {
+        padding: 10px 0;
+
+    }
+
+    .desk {
+        display: flex;
+    }
+
+    .column-left {
+        width: 145px;
+        padding: 50px 50px;
+    }
+
+    .column-right {
+        float: right;
+        margin-top: 50px;
+        margin-left: 1px;
+
+    }
+
+    .box {
+        position: relative;
+        border: 1px solid black;
+        width: 2px;
+        padding: 150px 150px;
+        margin-top: 90px;
+        margin-bottom: 40px;
+        border-radius: 10px;
+
+    }
+</style>
